@@ -47,3 +47,5 @@ public:
         return maxArea;
     }
 };
+
+/*In Brute Forcec, Time Complexity becomes O(n^2) because there are two loops scanning the entire arrays at once. Whereas in the optimal approach, the sole purpose of the while loop is to only pop an element, onstead of scanning the entire array the second time.*/
