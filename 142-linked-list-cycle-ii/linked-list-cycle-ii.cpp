@@ -23,6 +23,6 @@ public:
                 return slow;
             }
         }
-        return nullptr;
+        return NULL;
     }
 };
