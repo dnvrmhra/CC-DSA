@@ -18,7 +18,7 @@ public:
         }
         TreeNode* LLCA=lowestCommonAncestor(root->left,p,q);
         TreeNode* RLCA=lowestCommonAncestor(root->right,p,q);
-        if (LLCA && RLCA){
+        if (LLCA!=NULL && RLCA!=NULL){
             return root;
         }
         if (LLCA!=NULL){
