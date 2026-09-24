@@ -15,7 +15,7 @@ public:
             else if (rank==3){
                 answer.push_back("Bronze Medal");
             }
-            else {
+            else{
                 answer.push_back(to_string(rank));
             }
         }
